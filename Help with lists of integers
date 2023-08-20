@@ -1,0 +1,46 @@
+# Practicing With Lists
+
+
+# Declares the list
+x = [2, 1, 2, 3, 2, 4]
+
+# Prints the list normally
+print(x)
+
+# Prints the highest value in the list
+most = max(x)
+print(most)
+
+# Prints the lowest value in the list
+minimal = min(x)
+print(minimal)
+
+# Prints the most repeated value within the list
+most = max(x, key=x.count)
+print(most)
+
+# Prints the list in reverse
+x.reverse()
+print(x)
+
+# Prints the sum of the integers in the list
+print(sum(x))
+
+# Prints the product of the integers in the list
+import math
+print(math.prod(x))
+
+# Prints the average value from the list of integers
+from statistics import mean
+print(mean(x))
+
+# Prints the number of elements in a list (length)
+print(len(x))
+
+# Prints the list in a sorted, ascending order
+x.sort()
+print(x)
+
+# Prints the list in a sorted, descending order
+x.sort(reverse=True)
+print(x)
